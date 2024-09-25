@@ -14,7 +14,12 @@
 
 [Jest Library Documentation](https://jestjs.io/docs/getting-started)
 
-### const elem = await screen.findAllByRole("listitem", {}, { timeout: 3000 }); expect(elem).not.toHaveLength(0); listitem role is used for all li renders in screen
+### listitem role is used for all li renders in screen
+
+```
+const elem = await screen.findAllByRole("listitem", {}, { timeout: 3000 });
+expect(elem).not.toHaveLength(0);
+```
 
 [Click here](https://www.w3.org/TR/html-aria/#index-aria-menuitem)
 
