@@ -14,6 +14,12 @@ https://testing-library.com/docs/react-testing-library/intro/
 
 https://jestjs.io/docs/getting-started
 
-###
+### getByRole
+
+### menuitem role is used for li
+
+https://www.w3.org/TR/html-aria/#index-aria-menuitem
+
+### check other role in documentation below
 
 https://www.w3.org/TR/html-aria/#docconformance
