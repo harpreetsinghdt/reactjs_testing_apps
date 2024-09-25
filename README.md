@@ -14,9 +14,7 @@
 
 [Jest Library Documentation](https://jestjs.io/docs/getting-started)
 
-### getByRole
-
-### menuitem role is used for li
+### const elem = await screen.findAllByRole("listitem", {}, { timeout: 3000 }); expect(elem).not.toHaveLength(0); listitem role is used for all li renders in screen
 
 [Click here](https://www.w3.org/TR/html-aria/#index-aria-menuitem)
 
